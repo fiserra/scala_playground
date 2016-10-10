@@ -1,6 +1,6 @@
 package fiser.lazzy
 
-import com.fiser.lazzy.Stream._
+import fiser.lazzy.Stream._
 
 import scala.annotation.tailrec
 import scala.collection.mutable.ListBuffer

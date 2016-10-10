@@ -10,6 +10,7 @@ lazy val commonSettings = Seq(
 lazy val fp = (project in file("fp")).
   settings(commonSettings: _*).
   settings(
+    libraryDependencies ++= Seq(cats_dep, monix, monix_cats)
   )
 
 lazy val cats = (project in file("cats")).
